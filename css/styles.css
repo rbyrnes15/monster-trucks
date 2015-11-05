@@ -8,8 +8,8 @@ Accent Color (dark salmon): #F87759
 
 Typography
 ----
-Headlines: font-family: 'Audiowide', cursive;
-Body Copy:font-family: 'Merriweather', serif;
+Headlines: font-family: 'Racing Sans One', cursive;
+Body Copy:font-family: 'Audiowide', cursive;
 
 
 Patterns: http://subtlepatterns.com/polonez-pattern-2/
@@ -21,14 +21,14 @@ body {
 }
 /* Typography */
 h1,h2 {
-    font-family: 'Audiowide', cursive;;
+    font-family: 'Racing Sans One', cursive;
     color: #313131;
     text-transform: uppercase;
     letter-spacing: 2px;
 }
 
 p. blockquote {
-    font-family: 'Merriweather', serif;
+    font-family: 'Audiowide', cursive;
     font-size: 1.15em;
     line-height: 1.5em;
 }
