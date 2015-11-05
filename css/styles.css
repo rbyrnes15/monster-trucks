@@ -1,0 +1,40 @@
+/*
+
+Color Palette
+----
+Primary Color (Dark Grey): rgb(65, 56, 53);
+Secondary Color (dark blue): rgb(29, 86, 165)
+Accent Color (dark salmon): #F87759
+
+Typography
+----
+Headlines: font-family: 'Audiowide', cursive;
+Body Copy:font-family: 'Merriweather', serif;
+
+
+Patterns: http://subtlepatterns.com/polonez-pattern-2/
+*/
+
+/* Global or Sitewide */
+body {
+    background: url("../img/polonez_car.png");
+}
+/* Typography */
+h1,h2 {
+    font-family: 'Audiowide', cursive;;
+    color: #313131;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+p. blockquote {
+    font-family: 'Merriweather', serif;
+    font-size: 1.15em;
+    line-height: 1.5em;
+}
+
+blockquote {
+    font-size: 2em;
+    padding: 0 4em;
+    text-align: center;
+}
