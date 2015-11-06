@@ -16,13 +16,27 @@ Patterns: http://subtlepatterns.com/polonez-pattern-2/
 */
 
 /* Global or Sitewide */
-body {
-    background: url("../img/polonez_car.png");
+
+.pageheader{
+    margin-left: 130px;
 }
+
+
+body {
+    background-color: white;
+    background-image: "mjbackground.jpg";
+    background-repeat: no-repeat;
+    background-position: top;
+    background-attachment: fixed;
+}
+    
+
+
+    
 /* Typography */
 h1,h2 {
     font-family: 'Racing Sans One', cursive;
-    color: #313131;
+    color: #fff;
     text-transform: uppercase;
     letter-spacing: 2px;
 }
