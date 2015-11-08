@@ -18,7 +18,7 @@ Patterns: http://subtlepatterns.com/polonez-pattern-2/
 /* Global or Sitewide */
 
 body {
-    background: url("../img/polonez_car.png");
+    background: url("../img/real_cf.png");
 }
     
 
@@ -26,7 +26,7 @@ body {
 /* Typography */
 h1,h2 {
     font-family: 'Racing Sans One', cursive;
-    color: #313131;
+    color: #fff;
     text-transform: uppercase;
     letter-spacing: 2px;
 }
@@ -35,10 +35,20 @@ p. blockquote {
     font-family: 'Audiowide', cursive;
     font-size: 1.15em;
     line-height: 1.5em;
+    color: #fff;
 }
 
 blockquote {
     font-size: 2em;
     padding: 0 4em;
     text-align: center;
+    color: #fff;
+}
+
+p {
+    color: #fff;
+}
+
+a {
+    color: #fff;
 }
