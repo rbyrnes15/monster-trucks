@@ -29,6 +29,9 @@ h1,h2 {
     color: #fff;
     text-transform: uppercase;
     letter-spacing: 2px;
+     background: red;
+  box-shadow: 0px 0px 20px orange;
+    text-align: center;
 }
 
 p. blockquote {
@@ -52,3 +55,41 @@ p {
 a {
     color: #fff;
 }
+
+
+li {
+ list-style: none;  
+  display: inline-block;
+}
+
+/*Link & Visited*/
+a:link,
+a:visited {
+  transition: background .5s, margin-left 1s;
+  border-left: 8px solid #fff;
+  color: white;
+  display: block;
+  height: 32px;
+  line-height: 32px;
+  margin-bottom: 10px;
+  text-align: center;
+  text-decoration: none;
+  width: 200px;
+
+}
+
+/*Hover State*/
+a:hover {
+  background: lightorange;
+  border-left: 8px solid #FF9500;
+  color: #FF9500;
+  margin-left: 32px;
+}
+
+h1 {
+  background: red;
+  box-shadow: 0px 0px 20px orange;
+    text-align: center;
+}
+
+
